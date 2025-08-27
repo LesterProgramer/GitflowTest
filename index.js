@@ -13,7 +13,7 @@ const SumaMenu = () => {
     const n1 = readlineSync.question(`Ingresa tu primer numero: `);
     const n2 = readlineSync.question(`Ingresa tu primer Segundo: `);
 
-    let total = parseFloat(n1) + parseFloat(n1);
+    let total = parseFloat(n1) + parseFloat(n2);
     console.log(`Tu Resultado es  ${total}`);
 }
 
