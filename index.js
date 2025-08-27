@@ -17,5 +17,17 @@ const SumaMenu = () => {
     console.log(`Tu Resultado es  ${total}`);
 }
 
+const RestaMenu = () => {
+    console.log(`******************************************************* \n`)
+    console.log(`Sistema de Restas \n`);
+    const n1 = readlineSync.question(`Ingresa tu primer numero: `);
+    const n2 = readlineSync.question(`Ingresa tu primer Segundo: `);
+
+    let total = parseInt(n1) - parseInt(n2);
+    console.log(`Tu Resultado es  ${total}`);
+}
+
+
 Saludo();
+RestaMenu();
 SumaMenu();
