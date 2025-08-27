@@ -7,4 +7,5 @@ const Saludo = () => {
     console.log(`Bienvenido ${nombre}`);
 } 
 
+
 Saludo();
