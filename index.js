@@ -32,7 +32,7 @@ const MultiplicacionMenu = () => {
     const n1 = readlineSync.question(`Ingresa tu primer numero: `);
     const n2 = readlineSync.question(`Ingresa tu primer Segundo: `);
 
-    let total = parseInt(n1) * parseInt(n1);
+    let total = parseInt(n1) * parseInt(n2);
     console.log(`Tu Resultado es  ${total}`);
 }
 
